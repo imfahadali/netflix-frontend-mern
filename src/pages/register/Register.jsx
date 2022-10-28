@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useRef } from "react";
 import { useState } from "react";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import "./register.scss";
 
 export default function Register() {
