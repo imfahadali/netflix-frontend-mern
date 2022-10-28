@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    url("http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
   background-size: cover;
   position: relative;
 
@@ -30,6 +30,7 @@
         font-size: 16px;
         font-weight: 500;
         cursor: pointer;
+        z-index: 1099;
       }
     }
   }
