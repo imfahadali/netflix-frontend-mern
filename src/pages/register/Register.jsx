@@ -60,7 +60,7 @@ export default function Register() {
               name="email"
               onChange={handleChange}
             />
-            <button className="registerButton" onClick={()=> setEmail(true)}>
+            <button className="registerButton" onClick={() => setEmail(true)}>
               Get Started
             </button>
           </div>
