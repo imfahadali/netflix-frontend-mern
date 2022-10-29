@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import { PROD_URL } from "../../backend-url";
 import "./register.scss";
 
 export default function Register() {
@@ -19,7 +20,7 @@ export default function Register() {
     e.preventDefault();
 
     try {
-      await axios.post("auth/register", {
+      await axios.post(`${PROD_URL}auth/register`, {
         email: credentials.email,
         username: credentials.username,
         password: credentials.password,
