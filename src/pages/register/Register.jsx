@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { PROD_URL } from "../../backend-url";
 import "./register.scss";
 
 export default function Register() {
