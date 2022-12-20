@@ -5,9 +5,6 @@
 
 **Description:**
 
-
-<![endif]-->
-
 A Netflix clone built with the MERN stack (MongoDB, Express, React, and Node.js) is a web application that allows users to browse and stream a variety of movies and TV shows.
 
 The frontend of the app, built with React, provide a user-friendly interface for browsing and searching for content, as well as for playing and controlling the playback of video. It includes features such as
