@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url("http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+    url(../../assets/Netflix-background-1.jpg);
   background-size: cover;
   position: relative;
 
@@ -72,6 +72,7 @@
         color: lightgray;
         b {
           color: white;
+          cursor: pointer;
         }
       }
     }
