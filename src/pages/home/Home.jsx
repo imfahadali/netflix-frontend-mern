@@ -14,7 +14,7 @@ const Home = ({ type }) => {
     const getRandomLists = async () => {
       try {
         const res = await axios.get(
-          `${process.env.REACT_APP_PROD_URL}lists${
+          `${process.env.REACT_APP_PROD_URL}/lists${
             type ? "?type=" + type : ""
           }${genre ? "&genre=" + genre : ""}`,
           {
