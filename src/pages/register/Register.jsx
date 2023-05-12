@@ -19,7 +19,7 @@ export default function Register() {
     e.preventDefault();
 
     try {
-      await axios.post(`${process.env.REACT_APP_PROD_URL}/auth/register`, {
+      await axios.post(`${process.env.REACT_APP_PROD_URL}auth/register`, {
         email: credentials.email,
         username: credentials.username,
         password: credentials.password,
